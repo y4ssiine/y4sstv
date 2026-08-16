@@ -70,30 +70,6 @@ const hybridDatabase = [
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
   { 
-    id: 95350, 
-    title: "Lanterns (2026)",    
-    name: "Lanterns (2026)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 7.5,             
-    release_date: "2023-01-01",  
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rb94rKVIzLyfWufIN7WqLvadBDH.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/eYvhRHD06mNUJAfAMyRVwtxIWQx.jpg", 
-    overview: "A dangerous psychological game ensues when passions cross all boundary limits."
-  },
-   { 
-    id: 296206, 
-    title: "Agent Kim Reactivated (2026)",    
-    name: "Agent Kim Reactivated (2026)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 7.5,             
-    release_date: "2023-01-01",  
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/mxa7YxVln3Rwnd2Va82PoclTznj.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg", 
-    overview: "A dangerous psychological game ensues when passions cross all boundary limits."
-  },
-  { 
     id: 1275779, 
     title: "Disclosure Day (2026)",    
     name: "Disclosure Day (2026)",       
