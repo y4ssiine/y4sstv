@@ -45,6 +45,7 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg", 
     overview: "Spider-Man embarks on a brand-new adventure facing unprecedented web-slinging threats."
   },
+   
   { 
     id: 1368337, 
     title: "The Odyssey (2026)",    
