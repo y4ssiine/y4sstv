@@ -46,6 +46,63 @@
       height: auto;
     }
 
+    .media-grid {
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .media-card {
+      position: relative;
+      min-width: 0;
+      width: 100%;
+      max-width: 220px;
+      margin: 0 auto;
+      font-family: "Outfit", "Segoe UI", sans-serif;
+      font-size: 0.9rem;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(18px) scale(0.97);
+      transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s ease;
+      pointer-events: none;
+    }
+
+    .media-card.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0) scale(1);
+      pointer-events: auto;
+    }
+
+    .media-poster {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      border-radius: 14px;
+      display: block;
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
+    }
+
+    .media-title,
+    .movie-title,
+    .card-title {
+      font-family: "Outfit", "Segoe UI", sans-serif;
+      font-size: clamp(0.72rem, 0.9vw, 1rem);
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
+      margin-top: 0.55rem;
+      color: #f3f6ff;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.38);
+    }
+
+    .section-title-wrapper h2,
+    #main-section-heading {
+      font-family: "Outfit", "Segoe UI", sans-serif;
+      font-size: clamp(1.5rem, 2vw, 2.4rem);
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
     /* Mobile / small-screen layout: 3 movies per row */
     @media (max-width: 768px) {
       .media-grid {
@@ -55,6 +112,7 @@
 
       .media-card {
         min-width: 0;
+        max-width: none;
       }
 
       .media-poster {
@@ -64,7 +122,7 @@
       .media-title,
       .movie-title,
       .card-title {
-        font-size: 0.65rem;
+        font-size: 0.68rem;
         line-height: 1.2;
       }
     }
@@ -385,5 +443,44 @@
   </div>
 
   <script src="script.js"></script>
+  <script>
+    (function () {
+      function updateVisibleCards() {
+        const cards = document.querySelectorAll('.media-card');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+            } else {
+              entry.target.classList.remove('is-visible');
+            }
+          });
+        }, {
+          threshold: 0.12,
+          rootMargin: '80px 0px 80px 0px'
+        });
+
+        cards.forEach((card) => observer.observe(card));
+      }
+
+      function watchGridChanges() {
+        const grid = document.getElementById('media-grid');
+        if (!grid) return;
+
+        const observer = new MutationObserver(() => {
+          const cards = document.querySelectorAll('.media-card');
+          cards.forEach((card) => card.classList.remove('is-visible'));
+          updateVisibleCards();
+        });
+
+        observer.observe(grid, { childList: true, subtree: true });
+      }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        updateVisibleCards();
+        watchGridChanges();
+      });
+    })();
+  </script>
 </body>
 </html>
