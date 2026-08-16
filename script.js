@@ -70,15 +70,15 @@ const hybridDatabase = [
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
   { 
-    id: 113962, 
-    title: "Lioness (2023)",    
-    name: "Lioness (2023)",       
+    id: 95350, 
+    title: "Lanterns (2026)",    
+    name: "Lanterns (2026)",       
     type: "movie",                  
     category: "action",             
-    vote_average: 9.5,             
+    vote_average: 7.5,             
     release_date: "2023-01-01",  
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg", 
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rb94rKVIzLyfWufIN7WqLvadBDH.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/eYvhRHD06mNUJAfAMyRVwtxIWQx.jpg", 
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
   { 
