@@ -70,14 +70,14 @@ const hybridDatabase = [
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
   { 
-    id: 1339713, 
+    id: 113962, 
     title: "Lioness (2023)",    
     name: "Lioness (2023)",       
     type: "movie",                  
     category: "action",             
     vote_average: 9.5,             
     release_date: "2023-01-01",  
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg", 
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg", 
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
