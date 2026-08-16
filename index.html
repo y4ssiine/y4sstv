@@ -45,6 +45,29 @@
       max-width: 100%;
       height: auto;
     }
+
+    /* Mobile / small-screen layout: 3 movies per row */
+    @media (max-width: 768px) {
+      .media-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 0.6rem !important;
+      }
+
+      .media-card {
+        min-width: 0;
+      }
+
+      .media-poster {
+        border-radius: 10px;
+      }
+
+      .media-title,
+      .movie-title,
+      .card-title {
+        font-size: 0.65rem;
+        line-height: 1.2;
+      }
+    }
   </style>
   <!-- Supabase CDN Client Library -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
