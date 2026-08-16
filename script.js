@@ -45,7 +45,6 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg", 
     overview: "Spider-Man embarks on a brand-new adventure facing unprecedented web-slinging threats."
   },
-   
   { 
     id: 1368337, 
     title: "The Odyssey (2026)",    
@@ -67,7 +66,7 @@ const hybridDatabase = [
     vote_average: 9.5,             
     release_date: "2026-01-01",    
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/r013C8Me2bZ0pUi0OWJRh0h7MzT.jpg", 
     overview: "A dangerous psychological game ensues when passions cross all boundary limits."
   },
   { 
@@ -238,17 +237,17 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
     overview: "A new Captain America rises to defend America against emerging threats in a rapidly changing world."
   },
-  { 
-    id: 79744, 
-    title: "The Rookie (2018)",    
-    name: "The Rookie (2018)",       
-    type: "tv",                  
-    category: "comedy",             
-    vote_average: 7.2,             
-    release_date: "2018-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg", 
-    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  {
+    id: 1011477,
+    title: "Karate Kid: Legends (2025)",
+    name: "Karate Kid: Legends (2025)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.3,
+    release_date: "2025-05-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/c90Lt7OQGsOmhv6x4JoFdoHzw5l.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
+    overview: "A new Captain America rises to defend America against emerging threats in a rapidly changing world."
   },
   { 
     id: 1212763, 
@@ -287,6 +286,18 @@ const hybridDatabase = [
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
+    id: 1315772, 
+    title: "Minions & Monsters (2026)",    
+    name: "Minions & Monsters (2026)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 6.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/nJiTHM4rsC4LYaek1B6BJuWXUAr.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  { 
     id: 1408, 
     title: "House (2004)",    
     name: "House (2004)",       
@@ -310,6 +321,30 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/pwTMQFylIJ2pFJV0yJpcAoihcNI.jpg", 
     overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
   },
+  {
+    id: 83533,
+    title: "Avatar: Fire and Ash (2025)",
+    name: "Avatar: Fire and Ash (2025)",
+    type: "movie",
+    category: "scifi",
+    vote_average: 8.6,
+    release_date: "2025-12-15",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+    overview: "The Sully family faces new threats as the Na'vi struggle to protect their world from human exploitation."
+  },
+  {
+    id: 1003596,
+    title: "Avengers: Doomsday (2026)",
+    name: "Avengers: Doomsday (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.1,
+    release_date: "2026-08-20",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bh2OuKvq19jBHsloUVCfPSZZw81.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+    overview: "Joel and Ellie continue their journey in a post-apocalyptic world filled with danger and moral dilemmas."
+  },
   { 
     id: 399361, 
     title: "Triple Frontier (2019)",    
@@ -320,6 +355,18 @@ const hybridDatabase = [
     release_date: "2019-01-01",    
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/aBw8zYuAljVM1FeK5bZKITPH8ZD.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/s9I2LmQMYCanl6DvC3X1AOHs2r8.jpg", 
+    overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
+  },
+  { 
+    id: 233347, 
+    title: "Study Group (2025)",    
+    name: "Study Group (2025)",       
+    type: "movie",                  
+    category: "horror",             
+    vote_average: 6.2,             
+    release_date: "2025-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nZDeIfKCzp0qhu4N3HxrcKWN59J.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/1ucAo7E2fzTdwORGbMhLEUoPhfa.jpg", 
     overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
   },
   {
@@ -371,15 +418,15 @@ const hybridDatabase = [
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
-    id: 1315772, 
-    title: "Minions & Monsters (2026)",    
-    name: "Minions & Monsters (2026)",       
+    id: 200709, 
+    title: "Weak Hero (2022)",    
+    name: "Weak Hero (2022)",       
     type: "movie",                  
     category: "action",             
     vote_average: 6.9,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/nJiTHM4rsC4LYaek1B6BJuWXUAr.jpg", 
+    release_date: "2022-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/5Sd01WeraL2oA3Vv6O4rcRxockn.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/q5mJ4oKfGc6Cr9reIHFzD0pQzre.jpg", 
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
@@ -467,6 +514,30 @@ const hybridDatabase = [
     overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
   },
   {
+    id: 38575,
+    title: "The Karate Kid (2010)",
+    name: "The Karate Kid (2010)",
+    type: "movie",
+    category: "action",
+    vote_average: 7.2,
+    release_date: "2010-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/5xQ6P3tklkY1HVrFR1N1w3LyM2X.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/v8DepuF6gizphLzIyNZeQiB0hij.jpg",
+    overview: "A new Captain America rises to defend America against emerging threats in a rapidly changing world."
+  },
+  {
+    id: 77169,
+    title: "Cobra Kai (2018)",
+    name: "Cobra Kai (2018)",
+    type: "tv",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2018-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6POBWybSBDBKjSs1VAQcnQC1qyt.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/5NrSIzfcBOFI9HRGV4nRYgMGhDU.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
     id: 2288,
     title: "Prison Break (2005)",
     name: "Prison Break (2005)",
@@ -475,8 +546,32 @@ const hybridDatabase = [
     vote_average: 8.2,
     release_date: "2005-08-29",
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/m2U7vXc2r1lPeUUSCTHPwWxgF6M.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 296206,
+    title: "Agent Kim Reactivated (2026)",
+    name: "Agent Kim Reactivated (2026)",
+    type: "tv",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2026-08-29",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/mxa7YxVln3Rwnd2Va82PoclTznj.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/n3Brk7roueE9HOwVmYlJx5j462g.jpg",
     overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  { 
+    id: 79744, 
+    title: "The Rookie (2018)",    
+    name: "The Rookie (2018)",       
+    type: "tv",                  
+    category: "comedy",             
+    vote_average: 7.2,             
+    release_date: "2018-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg", 
+    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
     id: 1084244,
@@ -489,30 +584,6 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
     overview: "Woody and Buzz reunite when modern electronics threaten traditional toys."
-  },
-  {
-    id: 83533,
-    title: "Avatar: Fire and Ash (2025)",
-    name: "Avatar: Fire and Ash (2025)",
-    type: "movie",
-    category: "scifi",
-    vote_average: 8.6,
-    release_date: "2025-12-15",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
-    overview: "The Sully family faces new threats as the Na'vi struggle to protect their world from human exploitation."
-  },
-  {
-    id: 1003596,
-    title: "Avengers: Doomsday (2026)",
-    name: "Avengers: Doomsday (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 8.1,
-    release_date: "2026-08-20",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bh2OuKvq19jBHsloUVCfPSZZw81.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-    overview: "Joel and Ellie continue their journey in a post-apocalyptic world filled with danger and moral dilemmas."
   },
   {
     id: 1589248,
