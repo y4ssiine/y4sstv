@@ -286,6 +286,42 @@ const hybridDatabase = [
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
+    id: 314264, 
+    title: "Accident (2026)",    
+    name: "Accident (2026)",       
+    type: "tv",                  
+    category: "drama",             
+    vote_average: 7.2,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/u0I8CxQqDMF0ZGxrThOsjrzMKvp.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/5lrhP3Jb4bdZqTaifFcMYCrHSDI.jpg", 
+    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  },
+  { 
+    id: 1564831, 
+    title: "Tombé du ciel (2026)",    
+    name: "Tombé du ciel (2026)",       
+    type: "movie",                  
+    category: "comedy",             
+    vote_average: 7.2,             
+    release_date: "2026-01-01",    
+    poster_path: "https://www.themoviedb.org/t/p/w600_and_h900_face/gOnDCEcVrLGXZQPmJGZvCPDHPc0.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/acBmbujsFEhRcrK4OC0jlUMB1PK.jpg", 
+    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  },
+  { 
+    id: 314264, 
+    title: "Veronica (2017)",    
+    name: "Veronica (2017)",       
+    type: "movie",                  
+    category: "horror",             
+    vote_average: 7.2,             
+    release_date: "2017-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/xHP6mYLQKbJY9pg99PGoGKmmBZX.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/uBgibL16LuvsEmqOSfj19uTDnOP.jpg", 
+    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  },
+  { 
     id: 1315772, 
     title: "Minions & Monsters (2026)",    
     name: "Minions & Monsters (2026)",       
@@ -295,6 +331,18 @@ const hybridDatabase = [
     release_date: "2026-01-01",    
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/nJiTHM4rsC4LYaek1B6BJuWXUAr.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  { 
+    id: 1318447, 
+    title: "Apex (2026)",    
+    name: "Apex (2026)",       
+    type: "movie",                  
+    category: "thriller",             
+    vote_average: 7.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/phRgFqGMMBa3thwMwr0hZ85R9WC.jpg", 
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
@@ -418,6 +466,31 @@ const hybridDatabase = [
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
+    id: 1265609, 
+    title: "War Machine (2026)",    
+    name: "War Machine (2026)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 7.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  { 
+    id: 285838, 
+    title: "If Wishes Could Kill (2026)",    
+    name: "If Wishes Could Kill (2026)",       
+    type: "tv",                  
+    category: "drama",             
+    vote_average: 7.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/zV9WYOfFr4MAnzXXD8PR5J6JnN3.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+
+  { 
     id: 200709, 
     title: "Weak Hero (2022)",    
     name: "Weak Hero (2022)",       
@@ -454,6 +527,42 @@ const hybridDatabase = [
     overview: "Survivors stand their ground in the last remaining refuge against an unearthly invasion."
   },
   {
+    id: 1290417,
+    title: "Thrash (2026)",
+    name: "Thrash (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2026-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/adk8weka3O5648g3de4z3y4aE7G.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/hniERZojXCEc7Fp3yljZUigOAhm.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 40008,
+    title: "Hannibal (2013)",
+    name: "Hannibal (2013)",
+    type: "movie",
+    category: "crime",
+    vote_average: 8.2,
+    release_date: "2013-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/4zcgbPOEyuxS44ilJh6FIEEqH9j.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/mCwQJqyuCFlbFyJR5sWg3PqtHEN.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 1140692,
+    title: "The Channel (2023)",
+    name: "The Channel (2023)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2023-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/9Z7TzgY3qcBX7VHaNG3E3t8YP1v.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/yBOOto5TcaectXJibpZhVbtCyFY.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
     id: 5920,
     title: "The Mentalist (2008)",
     name: "The Mentalist (2008)",
@@ -463,6 +572,30 @@ const hybridDatabase = [
     release_date: "2008-09-30",
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/q3pCsNvJ7CmdJUz2sJEEUY3pOPC.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 111110,
+    title: "ONE PIECE (2023)",
+    name: "ONE PIECE (2023)",
+    type: "tv",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2023-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/lXl3ZbY5TksOdt6eYgdyg6vsnFW.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 1127384,
+    title: "Deep Water (2026)",
+    name: "Deep Water (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2026-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/alXBbsUKsvXhejPf8CiaCRzOHQM.jpg",
     overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
   },
   {
