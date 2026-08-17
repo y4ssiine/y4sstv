@@ -105,18 +105,6 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg", 
     overview: "A young photographer slips into an endless surreal labyrinth of liminal spaces."
   },
-  {
-    id: 1138194, 
-    title: "Heretic (2024)",    
-    name: "Heretic (2024)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 8.5,             
-    release_date: "2024-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/fr96XzlzsONrQrGfdLMiwtQjott.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/d2ej4uwL4ss1FfqLpA48UjflXeU.jpg", 
-    overview: "Two young missionaries become entrapped in a deadly game inside the house of a sinister man."
-  },
   { 
     id: 124364, 
     title: "From Season 4 (2026)",    
@@ -140,18 +128,6 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/uKYUR8GPkKRCksczYDJb3pwZauo.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/56v2KjBlU4XaOv9rVYEQypROD7P.jpg", 
     overview: "Dark secrets unravel in a suburban street where nothing is as it appears."
-  },
-  {
-    id: 157336,
-    imdb_id: "tt0816692",
-    title: "Interstellar (2014)",
-    type: "movie",
-    category: "scifi",
-    vote_average: 8.9,
-    release_date: "2014-11-07",
-    poster_path: "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-    backdrop_path: "/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
-    overview: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
   },
   { 
     id: 1101383, 
@@ -190,18 +166,6 @@ const hybridDatabase = [
     overview: "The hilarious spoof franchise returns to parody modern horror tropes."
   },
   { 
-    id: 1402, 
-    title: "The Walking Dead (2010)",    
-    name: "The Walking Dead (2010)",       
-    type: "tv",                  
-    category: "action",             
-    vote_average: 7.2,             
-    release_date: "2010-10-31",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/aN29llVoCFtBTwDZFtqdD9d8dHb.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/eRrmxUMK6P5ZQ0GiH6TcazHmryE.jpg", 
-    overview: "Kara Zor-El travels across the cosmos to fulfill her superheroic destiny."
-  },
-  { 
     id: 1081003, 
     title: "Supergirl (2026)",    
     name: "Supergirl (2026)",       
@@ -224,6 +188,186 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg", 
     overview: "Kara Zor-El travels across the cosmos to fulfill her superheroic destiny."
+  },
+  {
+    id: 83533,
+    title: "Avatar: Fire and Ash (2025)",
+    name: "Avatar: Fire and Ash (2025)",
+    type: "movie",
+    category: "scifi",
+    vote_average: 8.6,
+    release_date: "2025-12-15",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+    overview: "The Sully family faces new threats as the Na'vi struggle to protect their world from human exploitation."
+  },
+  {
+    id: 1003596,
+    title: "Avengers: Doomsday (2026)",
+    name: "Avengers: Doomsday (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.1,
+    release_date: "2026-08-20",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bh2OuKvq19jBHsloUVCfPSZZw81.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+    overview: "Joel and Ellie continue their journey in a post-apocalyptic world filled with danger and moral dilemmas."
+  },
+  {
+    id: 1304313,
+    title: "Lee Cronin's The Mummy (2026)",
+    name: "Lee Cronin's The Mummy (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 9.2,
+    release_date: "2026-01-10",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/1q308iixueCU4pFtSYugNOevtNx.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
+    overview: "Aquaman must unite the seven seas to prevent an ancient evil from consuming the world's oceans."
+  },
+  { 
+    id: 1315772, 
+    title: "Minions & Monsters (2026)",    
+    name: "Minions & Monsters (2026)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 6.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/nJiTHM4rsC4LYaek1B6BJuWXUAr.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  { 
+    id: 1084244,
+    title: "Toy Story 5 (2026)",  
+    name: "Toy Story 5 (2026)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 7.3,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+    overview: "Woody and Buzz reunite when modern electronics threaten traditional toys."
+  },
+  {
+    id: 855435,
+    imdb_id: "Faces of Death (2026)",
+    title: "Faces of Death (2026)",
+    type: "movie",
+    category: "horror",
+    vote_average: 9.9,
+    release_date: "2026-11-07",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/xG5DI7YwLC7p54w8KNoE9AMXLpQ.jpg",
+    overview: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  },
+  { 
+    id: 1318447, 
+    title: "Apex (2026)",    
+    name: "Apex (2026)",       
+    type: "movie",                  
+    category: "thriller",             
+    vote_average: 7.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/phRgFqGMMBa3thwMwr0hZ85R9WC.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  {
+    id: 1308767,
+    title: "Young Washington (2026)",
+    name: "Young Washington (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 7.9,
+    release_date: "2026-01-10",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+    overview: "Aquaman must unite the seven seas to prevent an ancient evil from consuming the world's oceans."
+  },
+  { 
+    id: 76479, 
+    title: "The Boys (2026)",    
+    name: "The Boys (2026)",       
+    type: "tv",                  
+    category: "action",             
+    vote_average: 6.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/in1R2dDc421JxsoRWaIIAqVI2KE.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  {
+    id: 1127384,
+    title: "Deep Water (2026)",
+    name: "Deep Water (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2026-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/alXBbsUKsvXhejPf8CiaCRzOHQM.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  {
+    id: 1290417,
+    title: "Thrash (2026)",
+    name: "Thrash (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.2,
+    release_date: "2026-01-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/adk8weka3O5648g3de4z3y4aE7G.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/hniERZojXCEc7Fp3yljZUigOAhm.jpg",
+    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
+  },
+  { 
+    id: 1284041, 
+    title: "The Last House (2026)",    
+    name: "The Last House (2026)",       
+    type: "movie",                  
+    category: "action",          
+    vote_average: 7.3,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6JU7E8Vv2M11egkctWVOScxWR75.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/2mPmccLg8QCD4ZF6v8kSsUijPPW.jpg", 
+    overview: "Survivors stand their ground in the last remaining refuge against an unearthly invasion."
+  },
+  { 
+    id: 1265609, 
+    title: "War Machine (2026)",    
+    name: "War Machine (2026)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 7.9,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg", 
+    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
+  },
+  { 
+    id: 1284465, 
+    title: "The Death of Robin Hood (2026)",    
+    name: "The Death of Robin Hood (2026)",       
+    type: "movie",                  
+    category: "horror",             
+    vote_average: 6.2,             
+    release_date: "2026-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/92Tsfx7SFafOqWsotvrlJbHyehd.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/pwTMQFylIJ2pFJV0yJpcAoihcNI.jpg", 
+    overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
+  },
+  {
+    id: 1138194, 
+    title: "Heretic (2024)",    
+    name: "Heretic (2024)",       
+    type: "movie",                  
+    category: "action",             
+    vote_average: 8.5,             
+    release_date: "2024-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/fr96XzlzsONrQrGfdLMiwtQjott.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/d2ej4uwL4ss1FfqLpA48UjflXeU.jpg", 
+    overview: "Two young missionaries become entrapped in a deadly game inside the house of a sinister man."
   },
   {
     id: 108978,
@@ -249,6 +393,18 @@ const hybridDatabase = [
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
     overview: "A new Captain America rises to defend America against emerging threats in a rapidly changing world."
   },
+  {
+    id: 1368314,
+    title: "Passenger (2026)",
+    name: "Passenger (2026)",
+    type: "movie",
+    category: "action",
+    vote_average: 8.3,
+    release_date: "2026-05-01",
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/tjGPixIM1DQUiPtFJ4OvHfS2Pfk.jpg",
+    overview: "A new Captain America rises to defend America against emerging threats in a rapidly changing world."
+  },
   { 
     id: 1212763, 
     title: "Evil Dead Burn (2026)",    
@@ -260,6 +416,18 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/A5Tz6ogGt4VV8NESG9oWVct5bo1.jpg", 
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  },
+  {
+    id: 157336,
+    imdb_id: "tt0816692",
+    title: "Interstellar (2014)",
+    type: "movie",
+    category: "scifi",
+    vote_average: 8.9,
+    release_date: "2014-11-07",
+    poster_path: "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    backdrop_path: "/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+    overview: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
   },
   { 
     id: 146233, 
@@ -298,6 +466,18 @@ const hybridDatabase = [
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
+    id: 1402, 
+    title: "The Walking Dead (2010)",    
+    name: "The Walking Dead (2010)",       
+    type: "tv",                  
+    category: "action",             
+    vote_average: 7.2,             
+    release_date: "2010-10-31",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/aN29llVoCFtBTwDZFtqdD9d8dHb.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/eRrmxUMK6P5ZQ0GiH6TcazHmryE.jpg", 
+    overview: "Kara Zor-El travels across the cosmos to fulfill her superheroic destiny."
+  },
+  { 
     id: 1564831, 
     title: "Tombé du ciel (2026)",    
     name: "Tombé du ciel (2026)",       
@@ -322,18 +502,6 @@ const hybridDatabase = [
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
-    id: 1084244,
-    title: "Toy Story 5 (2026)",  
-    name: "Toy Story 5 (2026)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 7.3,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
-    overview: "Woody and Buzz reunite when modern electronics threaten traditional toys."
-  },
-  { 
     id: 100757,
     title: "Outer Banks (2020)",  
     name: "Outer Banks (2020)",       
@@ -346,30 +514,6 @@ const hybridDatabase = [
     overview: "Woody and Buzz reunite when modern electronics threaten traditional toys."
   },
   { 
-    id: 1315772, 
-    title: "Minions & Monsters (2026)",    
-    name: "Minions & Monsters (2026)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 6.9,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/nJiTHM4rsC4LYaek1B6BJuWXUAr.jpg", 
-    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
-  },
-  { 
-    id: 1318447, 
-    title: "Apex (2026)",    
-    name: "Apex (2026)",       
-    type: "movie",                  
-    category: "thriller",             
-    vote_average: 7.9,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/phRgFqGMMBa3thwMwr0hZ85R9WC.jpg", 
-    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
-  },
-  { 
     id: 1408, 
     title: "House (2004)",    
     name: "House (2004)",       
@@ -380,42 +524,6 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/r0Q6eeN9L1ORL9QsV0Sg8ZV3vnv.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/A5Tz6ogGt4VV8NESG9oWVct5bo1.jpg", 
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
-  },
-  { 
-    id: 1284465, 
-    title: "The Death of Robin Hood (2026)",    
-    name: "The Death of Robin Hood (2026)",       
-    type: "movie",                  
-    category: "horror",             
-    vote_average: 6.2,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/92Tsfx7SFafOqWsotvrlJbHyehd.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/pwTMQFylIJ2pFJV0yJpcAoihcNI.jpg", 
-    overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
-  },
-  {
-    id: 83533,
-    title: "Avatar: Fire and Ash (2025)",
-    name: "Avatar: Fire and Ash (2025)",
-    type: "movie",
-    category: "scifi",
-    vote_average: 8.6,
-    release_date: "2025-12-15",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
-    overview: "The Sully family faces new threats as the Na'vi struggle to protect their world from human exploitation."
-  },
-  {
-    id: 1003596,
-    title: "Avengers: Doomsday (2026)",
-    name: "Avengers: Doomsday (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 8.1,
-    release_date: "2026-08-20",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/bh2OuKvq19jBHsloUVCfPSZZw81.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-    overview: "Joel and Ellie continue their journey in a post-apocalyptic world filled with danger and moral dilemmas."
   },
   { 
     id: 399361, 
@@ -442,18 +550,6 @@ const hybridDatabase = [
     overview: "A battle-worn Robin Hood confronts his past while dealing with mortal wounds."
   },
   {
-    id: 1304313,
-    title: "Lee Cronin's The Mummy (2026)",
-    name: "Lee Cronin's The Mummy (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 9.2,
-    release_date: "2026-01-10",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/1q308iixueCU4pFtSYugNOevtNx.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
-    overview: "Aquaman must unite the seven seas to prevent an ancient evil from consuming the world's oceans."
-  },
-  { 
     id: 668489, 
     title: "Havoc (2025)",    
     name: "Havoc (2025)",       
@@ -475,30 +571,6 @@ const hybridDatabase = [
     release_date: "2024-01-01",    
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/xZqo0yPARmyF8TACVNyaOACkYWG.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/vbkW4KerpshPZnP84w9qwSfYrhu.jpg", 
-    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
-  },
-  { 
-    id: 76479, 
-    title: "The Boys (2026)",    
-    name: "The Boys (2026)",       
-    type: "tv",                  
-    category: "action",             
-    vote_average: 6.9,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/in1R2dDc421JxsoRWaIIAqVI2KE.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg", 
-    overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
-  },
-  { 
-    id: 1265609, 
-    title: "War Machine (2026)",    
-    name: "War Machine (2026)",       
-    type: "movie",                  
-    category: "action",             
-    vote_average: 7.9,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg", 
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
@@ -527,18 +599,6 @@ const hybridDatabase = [
     overview: "The yellow mischief-makers stumble into a ancient realm of fantastical monsters."
   },
   { 
-    id: 1284041, 
-    title: "The Last House (2026)",    
-    name: "The Last House (2026)",       
-    type: "movie",                  
-    category: "action",          
-    vote_average: 7.3,             
-    release_date: "2026-01-01",    
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6JU7E8Vv2M11egkctWVOScxWR75.jpg", 
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/2mPmccLg8QCD4ZF6v8kSsUijPPW.jpg", 
-    overview: "Survivors stand their ground in the last remaining refuge against an unearthly invasion."
-  },
-  { 
     id: 458305, 
     title: "Vivarium (2019)",    
     name: "Vivarium (2019)",       
@@ -549,18 +609,6 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/myf3qzpeN0JbuFRPwSpJcz7rmAT.jpg", 
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/zLa8fA7boGtNoNH7n6iYi9UqoaH.jpg", 
     overview: "Survivors stand their ground in the last remaining refuge against an unearthly invasion."
-  },
-  {
-    id: 1290417,
-    title: "Thrash (2026)",
-    name: "Thrash (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 8.2,
-    release_date: "2026-01-01",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/adk8weka3O5648g3de4z3y4aE7G.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/hniERZojXCEc7Fp3yljZUigOAhm.jpg",
-    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
   },
   {
     id: 40008,
@@ -608,18 +656,6 @@ const hybridDatabase = [
     release_date: "2023-01-01",
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/lXl3ZbY5TksOdt6eYgdyg6vsnFW.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
-    overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
-  },
-  {
-    id: 1127384,
-    title: "Deep Water (2026)",
-    name: "Deep Water (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 8.2,
-    release_date: "2026-01-01",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/kjcuS7xaRyqRjVaVcH4t0qHshuX.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/alXBbsUKsvXhejPf8CiaCRzOHQM.jpg",
     overview: "The two titans clash one last time in an epic battle that will determine the fate of humanity."
   },
   {
@@ -789,18 +825,6 @@ const hybridDatabase = [
     poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/hCt2bLRGTCjHGqtV5FP3Img6w1h.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
     overview: "Children who live in hiding with superpower abilities, along with their parents who have lived with painful secrets from the past, face immense dangers together across generations."
-  },
-  {
-    id: 1308767,
-    title: "Young Washington (2026)",
-    name: "Young Washington (2026)",
-    type: "movie",
-    category: "action",
-    vote_average: 7.9,
-    release_date: "2026-01-10",
-    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
-    overview: "Aquaman must unite the seven seas to prevent an ancient evil from consuming the world's oceans."
   },
   {
     id: 238,
