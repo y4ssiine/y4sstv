@@ -874,6 +874,12 @@ window.addEventListener("click", (event) => {
   }
 });
 
+// --- Animation Control Variables ---
+let bgAnimationFrameId = null;
+let bgAnimationPaused = false;
+let trailerUpdateTimeoutId = null;
+let trailerUpdatePaused = false;
+
 // --- Dynamic Ambient Theme Background Animation ---
 function initDynamicThemeAnimation() {
   let canvas = document.getElementById("bg-theme-canvas");
@@ -909,35 +915,37 @@ function initDynamicThemeAnimation() {
   }));
 
   function animate() {
-    ctx.clearRect(0, 0, width, height);
+    if (!bgAnimationPaused) {
+      ctx.clearRect(0, 0, width, height);
 
-    // Deep ambient gradient
-    const gradient = ctx.createRadialGradient(width / 2, height / 2, 100, width / 2, height / 2, Math.max(width, height));
-    gradient.addColorStop(0, "rgba(15, 23, 42, 0.85)");
-    gradient.addColorStop(0.5, "rgba(10, 15, 30, 0.95)");
-    gradient.addColorStop(1, "rgba(3, 7, 18, 1)");
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, width, height);
+      // Deep ambient gradient
+      const gradient = ctx.createRadialGradient(width / 2, height / 2, 100, width / 2, height / 2, Math.max(width, height));
+      gradient.addColorStop(0, "rgba(15, 23, 42, 0.85)");
+      gradient.addColorStop(0.5, "rgba(10, 15, 30, 0.95)");
+      gradient.addColorStop(1, "rgba(3, 7, 18, 1)");
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, width, height);
 
-    // Floating thematic stars/particles
-    particles.forEach(p => {
-      p.x += p.speedX;
-      p.y += p.speedY;
+      // Floating thematic stars/particles
+      particles.forEach(p => {
+        p.x += p.speedX;
+        p.y += p.speedY;
 
-      if (p.x < 0) p.x = width;
-      if (p.x > width) p.x = 0;
-      if (p.y < 0) p.y = height;
-      if (p.y > height) p.y = 0;
+        if (p.x < 0) p.x = width;
+        if (p.x > width) p.x = 0;
+        if (p.y < 0) p.y = height;
+        if (p.y > height) p.y = 0;
 
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(56, 189, 248, ${p.alpha})`;
-      ctx.shadowBlur = 8;
-      ctx.shadowColor = "#38bdf8";
-      ctx.fill();
-    });
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(56, 189, 248, ${p.alpha})`;
+        ctx.shadowBlur = 8;
+        ctx.shadowColor = "#38bdf8";
+        ctx.fill();
+      });
+    }
 
-    requestAnimationFrame(animate);
+    bgAnimationFrameId = requestAnimationFrame(animate);
   }
   animate();
 }
@@ -1004,8 +1012,11 @@ function loadNextBgTrailer(iframe) {
   currentTrailerIdx = (currentTrailerIdx + 1) % youtubeTrailerIds.length;
 
   // Cycle background trailer every 45 seconds automatically
-  setTimeout(() => {
-    loadNextBgTrailer(iframe);
+  if (trailerUpdateTimeoutId) clearTimeout(trailerUpdateTimeoutId);
+  trailerUpdateTimeoutId = setTimeout(() => {
+    if (!trailerUpdatePaused) {
+      loadNextBgTrailer(iframe);
+    }
   }, 25000);
 }
 
@@ -1224,6 +1235,18 @@ async function openModal(id, type, itemObj) {
   activeId = id;
   activeType = type;
   activeItemObj = itemObj;
+
+  // Pause background animations and trailer
+  bgAnimationPaused = true;
+  trailerUpdatePaused = true;
+  
+  // Pause YouTube background trailer iframe
+  const bgIframe = document.getElementById("bg-youtube-iframe");
+  if (bgIframe) {
+    bgIframe.style.display = "none";
+    const iframeWrapper = bgIframe.parentElement;
+    if (iframeWrapper) iframeWrapper.style.display = "none";
+  }
 
   player.src = "";
   playerWrapper.style.display = "none";
@@ -1444,6 +1467,18 @@ function closeModal() {
   modalBackdropPreview.style.display = "flex";
   playerWrapper.style.display = "none";
   document.getElementById("glass-panel-box").classList.remove("theater-mode");
+  
+  // Resume background animations and trailer
+  bgAnimationPaused = false;
+  trailerUpdatePaused = false;
+  
+  // Resume YouTube background trailer iframe
+  const bgIframe = document.getElementById("bg-youtube-iframe");
+  if (bgIframe) {
+    bgIframe.style.display = "block";
+    const iframeWrapper = bgIframe.parentElement;
+    if (iframeWrapper) iframeWrapper.style.display = "block";
+  }
 }
 
 // Config Modals
