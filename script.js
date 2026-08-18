@@ -454,6 +454,18 @@ const hybridDatabase = [
     overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
   },
   { 
+    id: 574475, 
+    title: "Final Destination Bloodlines (2025)",    
+    name: "Final Destination Bloodlines (2025)",       
+    type: "movie",                  
+    category: "horror",             
+    vote_average: 7.9,             
+    release_date: "2025-01-01",    
+    poster_path: "https://media.themoviedb.org/t/p/w220_and_h330_face/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg", 
+    backdrop_path: "https://media.themoviedb.org/t/p/w500_and_h282_face/yyDLU9HzNNdZ3G07g9rElqzN3OI.jpg", 
+    overview: "The Necronomicon strikes again unleashing infernal horror upon an isolated cabin."
+  },
+  { 
     id: 314264, 
     title: "Accident (2026)",    
     name: "Accident (2026)",       
