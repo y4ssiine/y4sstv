@@ -31,6 +31,30 @@ const bgVideo = document.getElementById("bg-trailer-video");
 const searchInput = document.getElementById("search-input");
 const clearSearchBtn = document.getElementById("clear-search-btn");
 
+// Keep background video playback lightweight on small/low-power devices.
+// The video is not resized or compressed; only unnecessary background work is
+// paused while the page is not visible or the device is under load.
+function optimizeBackgroundVideo() {
+  if (!bgVideo) return;
+
+  const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const lowPowerDevice = navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4;
+  const smallScreen = Math.min(window.innerWidth, window.innerHeight) <= 640;
+
+  bgVideo.playsInline = true;
+  bgVideo.setAttribute("playsinline", "");
+  bgVideo.setAttribute("webkit-playsinline", "");
+  bgVideo.preload = "metadata";
+
+  // Avoid decoding/rendering frames when they cannot be seen.
+  if (reduceMotion || document.hidden || bgAnimationPaused || lowPowerDevice || smallScreen) {
+    bgVideo.pause();
+  } else {
+    const playPromise = bgVideo.play();
+    if (playPromise && playPromise.catch) playPromise.catch(() => {});
+  }
+}
+
 // --- DIRECT HYBRID FALLBACK DATABASE ---
 const hybridDatabase = [
   { 
