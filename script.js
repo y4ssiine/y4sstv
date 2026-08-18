@@ -1232,6 +1232,12 @@ const allServers = [
 ];
 
 async function openModal(id, type, itemObj) {
+  // Show the modal before any network request. On slower devices the TMDB
+  // request can take several seconds, which previously made the click appear
+  // to do nothing (the modal was only activated at the end of this function).
+  if (!modal) return;
+  modal.classList.add("active");
+
   activeId = id;
   activeType = type;
   activeItemObj = itemObj;
@@ -1378,7 +1384,6 @@ async function openModal(id, type, itemObj) {
 
   buildServerDropdownOptions();
   updateWatchlistButtonState();
-  modal.classList.add("active");
 }
 
 function buildServerDropdownOptions() {
